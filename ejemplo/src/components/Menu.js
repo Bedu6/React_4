@@ -10,7 +10,11 @@ const Menu = (props) => (
 		  		Comentarios
 		  	</Link>
 		  </NavItem>
-		  <NavItem href='components.html'>Components</NavItem>
+		  <NavItem>
+		  	<Link to='/fotos'>
+		  		Fotos
+		  	</Link>
+		  </NavItem>
 		</Navbar>
 	</div>
 );
